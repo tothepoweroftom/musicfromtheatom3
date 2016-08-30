@@ -106,7 +106,7 @@ nx.onload = function() {
 
   toggle1.on('*', function(data){
 
-    console.log(data.value);
+  //  console.log(data.value);
     if(data.value === 1) {
       arcToggle1 = true;
 $("#slider").roundSlider("enable");
@@ -118,7 +118,7 @@ $("#slider").roundSlider("disable");
   })
   toggle2.on('*', function(data){
 
-    console.log(data.value);
+  //  console.log(data.value);
     if(data.value === 1) {
       arcToggle2 = true;
       $("#slider2").roundSlider("enable");
@@ -131,7 +131,7 @@ $("#slider").roundSlider("disable");
   })
   toggle3.on('*', function(data){
 
-    console.log(data.value);
+    // console.log(data.value);
     if(data.value === 1) {
       arcToggle3 = true;
       $("#slider3").roundSlider("enable");
