@@ -149,8 +149,8 @@ $("#slider").roundSlider("disable");
 
 
 //TONE.JS EFFECTS
-var pingPong = new Tone.PingPongDelay("4n", 0.3).toMaster();
-pingPong.wet.value = 0.1;
+var pingPong = new Tone.PingPongDelay("2n", 0.3).toMaster();
+pingPong.wet.value = 0.2;
 
 
 
@@ -342,8 +342,8 @@ function preload() {
 
     //TURN DOWN THE VOLUME
     sampler.volume.value = -10;
-    sampler2.volume.value = -20;
-    sampler3.volume.value = -16;
+    sampler2.volume.value = -18;
+    sampler3.volume.value = -15;
 
     sampler.envelope.attack = 0.8;
     sampler2.envelope.attack = 0.8;
