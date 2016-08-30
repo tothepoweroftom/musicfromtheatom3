@@ -426,8 +426,8 @@ $("#slider3").roundSlider("disable");
     // specify multiple formats for different browsers
     // video = createVideo(['assets/subtractedFootageForWeb.mp4']);
     // vidDisplay = createVideo(['assets/FullWebFootage.mp4']);
-    video = createVideo(['assets/cloud25.mp4']);
-    vidDisplay = createVideo(['assets/cloud25forweb.mp4']);
+    video = createVideo(['assets/cloud25forweb.mp4']);
+    vidDisplay = createVideo(['assets/cloud25.mp4']);
     var elt = document.getElementById('loader-wrapper');
     elt.style.display = 'none';
     vidDisplay.id("vidDisplay");
