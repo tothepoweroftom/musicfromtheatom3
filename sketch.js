@@ -342,8 +342,8 @@ function preload() {
 
     //TURN DOWN THE VOLUME
     sampler.volume.value = -10;
-    sampler2.volume.value = -18;
-    sampler3.volume.value = -10;
+    sampler2.volume.value = -20;
+    sampler3.volume.value = -16;
 
     sampler.envelope.attack = 0.8;
     sampler2.envelope.attack = 0.8;
