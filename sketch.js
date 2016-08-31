@@ -379,7 +379,7 @@ function setup() {
       handleSize: "+20",
       sliderType: "range",
       max: "360",
-      value: "0,180",
+      value: "90,180",
       showTooltip: "false",
       change: "onValueChange1"
     });
@@ -397,7 +397,7 @@ slider2 = $('#slider2').roundSlider({
   sliderType: "range",
   max: "362",
   //startAngle: "90",
-  value: "180, 270",
+  value: "180, 210",
   showTooltip: "false",
   change: "onValueChange2"
 });
@@ -416,7 +416,7 @@ slider3 = $('#slider3').roundSlider({
   handleSize: "+20",
   sliderType: "range",
   max: "360",
-  value: "270,360",
+  value: "270,300",
   showTooltip: "false",
   change: "onValueChange3"
 });
